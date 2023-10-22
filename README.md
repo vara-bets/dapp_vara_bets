@@ -1,2 +1,12 @@
 # dapp_vara_bets
-dapp vara-bets (web app)
+
+# DEV
+
+active node v18
+```
+nvm use v18
+```
+
+```
+pnpm dev
+```
