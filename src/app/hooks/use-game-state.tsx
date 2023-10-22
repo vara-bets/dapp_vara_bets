@@ -54,5 +54,11 @@ export function useGameState() {
         payload: payloadStatus,
     })
 
+    const {BlockNumber: u32} = useReadState<{ BlockNumber: u32}>({
+        programId: programIdGame,
+        meta,
+        payload: '0x',
+    })
+
     return { game, config, players, admins, error, status }
 }
