@@ -14,6 +14,11 @@ export type IRegisterForm = {
   wallet: HexString | ''
   nickname: string
 }
+
+export type IBet = {
+  encrypted_bet_data: HexString | ''
+}
+
 export const initialRegister: IRegisterForm = {
   wallet: '',
   nickname: '',
